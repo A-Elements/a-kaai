@@ -16,8 +16,11 @@ Then, go ahead and download the element's dependencies:
 
 ## Using a-kaai
 You can use this element in any environment. 
+First add via bower:
 	
 	bower install A-Elements/a-kaai --save
+
+Then include webcomponents and this element to use it.
 
 	<head>
 	<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
