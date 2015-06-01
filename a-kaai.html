@@ -8,7 +8,6 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
 <link rel="import" href="../polymer/polymer.html">
-<link rel="import" href="../paper-toolbar/paper-toolbar.html">
 
 <!--
 An element providing a solution to no problem in particular.
@@ -19,24 +18,32 @@ Example:
 
 @demo
 -->
+
 <dom-module id="a-kaai">
 
-  <style>
-    :host {
-      display: block;
-      box-sizing: border-box;
-    }
-
-    .author img {
-      float: left;
-      margin-right: 5px;
-      max-height: 100px;
-      max-width: 100px;
-    }
-  </style>
-
   <template>
-    <paper-toolbar></paper-toolbar>
+    <link rel="stylesheet" href="aos-kaai-dark.css" />
+    <div id="kaai" style="background-color: #333333" horizontal center center-justified layout fit>
+      
+      <div class="helpings" horizontal layout flex>
+        <a href="/help" class="helpbtn" >
+          <img class="kaaibtns" src="images/kaai-help.svg">
+        </a>
+      </div>
+
+      <div class="tools" horizontal layout>
+        <img class="kaaibtns" src="images/kaai-searchloop.svg">
+        <a href="/#/knooppunt">
+          <img class="kaaibtns" src="images/kaai-knooppunt.svg">
+        </a>
+      <!-- <div class="avatarbox" hidden?="{{!$.globals.values.user.data}}">
+        <img src="{{ $.globals.values.user.data.avatarUrl }}" on-tap="{{toggleLogin}}">
+      </div> -->
+        <div class="avatarbox">
+          <img src="images/kaai-profiel2.svg">
+        </div>
+      </div>
+    </div>
   </template>
 
 </dom-module>
