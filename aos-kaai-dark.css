@@ -4,9 +4,8 @@
   width: 100%;
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-/*  @apply(--layout-vertical-center);
-*/}
+  /*box-sizing: border-box;*/
+}
 
 a {
 	color: white;
@@ -20,26 +19,9 @@ h1 {
 	font-weight: 100;
 }
 
-
-core-field {
-	background-color: #555555;
-	color: white;
-}
-
 #kaai {
 /*	@apply(--layout-vertical);
 */	background-color: #333333;
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-	height: 60px;
-	-webkit-transition: height 0.35s;
-	-moz-transition: height 0.35s;
-	transition: height 0.35s;
-}
-
-#mobilekaai {
-	background-color:  #333333;
 	width: 100%;
 	padding: 0px;
 	margin: 0px;
@@ -57,20 +39,9 @@ core-field {
 
 }
 
-.mobilekaaibtns {
-	width: 28px;
-	height: 28px;
-	margin: 2px 10px 2px 10px;
-	padding: 0px;
-}
-
-.helpings {
-	padding-left: 2vw;
-}
-
 .tools {
 	padding-right: 2vw;
-	@apply(--layout-horizontal);
+	/*@apply(--layout-vertical);*/
 }
 
 /*
