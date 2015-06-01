@@ -14,6 +14,20 @@ Then, go ahead and download the element's dependencies:
 
     bower install
 
+## Using a-kaai
+You can use this element in any environment. 
+	
+	bower install A-Elements/a-kaai --save
+
+	<head>
+	<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../a-kaai.html">
+    ...
+    </head>
+    <body>
+    <a-kaai></a-kaai>
+    ...
+    </body>
 
 ## Playing With Your Element
 
